@@ -52,7 +52,8 @@ function imprimeIdade() {
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
   // implemente sua lógica aqui
-  return peso / (altura * altura)
+  const teste =peso / (altura **2)
+  return teste
 }
 
 // EXERCÍCIO 04
@@ -125,6 +126,7 @@ function trocaPrimeiroEUltimo(array) {
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
   return string1.toLowerCase() === string2.toLowerCase()
+
 
 }
 
